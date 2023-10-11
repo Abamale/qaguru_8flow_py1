@@ -86,7 +86,7 @@ def test_dicts():
     second = [1, 2, 3, 4, 5]
     # TODO создайте словарь
     d = dict(zip(first, second))
-    print(d)
+    print(d.values())
 
     assert isinstance(d, dict)
     assert len(d) == 5
